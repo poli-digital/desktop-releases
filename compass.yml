@@ -1,0 +1,16 @@
+name: desktop-releases
+id: ari:cloud:compass:d1d9f267-e2bb-4eba-889f-94028c5b05c4:component/5053650e-af41-4103-937c-7f83369b6aab/51935070-559f-42a0-a47d-80db21246b05
+description: Instaladores e atualizações do Poli Desktop (o código fica em poli-digital/DesktopApp, privado).
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/poli-digital/desktop-releases
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
